@@ -1,6 +1,6 @@
 export TOMCAT_VERSION=8.0.0-RC5
 export NAVAJO_VERSION=2.11.16
-export NAVAJO_BRANCH=master
+export NAVAJO_BRANCH=integration
 #export NAVAJO_REPO=https://repo.dexels.com/nexus/content/repositories/navajo_test/
 #export NAVAJO_SNAPSHOT_REPO=https://repo.dexels.com/nexus/content/repositories/navajo_test_snapshot/
 export NAVAJO_REPO=https://repo.dexels.com/nexus/content/repositories/navajo/
