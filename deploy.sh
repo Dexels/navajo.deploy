@@ -58,6 +58,7 @@ cd tomcat/webapps
 mvn org.apache.maven.plugins:maven-dependency-plugin:2.4:get -Ddest=navajo.war -DrepoUrl=${NAVAJO_REPO} -Dartifact=com.dexels.navajo:com.dexels.navajo.enterprise.war.sportlink:${NAVAJO_VERSION}:war -U
 
 cd ../lib
+cp /usr/lib/jvm/java-1.7.0-openjdk-1.7.0.9.x86_64/lib/tools.jar .
 cp /usr/jdk1.7.0/lib/tools.jar .
 cd ../conf
 sed -i -e 's/8080/9090/g' server.xml
