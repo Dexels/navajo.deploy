@@ -1,0 +1,44 @@
+<settings>
+ <profiles>
+       <profile>
+           <id>profile-1</id>
+               <activation>
+                     <activeByDefault>true</activeByDefault>
+                         </activation>
+<repositories>
+<repository>
+<releases>
+<enabled>false</enabled>
+<updatePolicy>always</updatePolicy>
+<checksumPolicy>warn</checksumPolicy>
+</releases>
+<snapshots>
+<enabled>true</enabled>
+<updatePolicy>never</updatePolicy>
+<checksumPolicy>fail</checksumPolicy>
+</snapshots>
+<id>navajo_test_snapshot</id>
+<name>Navajo test snapshot</name>
+<url>https://repo.dexels.com/nexus/content/repositories/navajo_test_snapshot</url>
+<layout>default</layout>
+</repository>
+<repository>
+<releases>
+<enabled>true</enabled>
+<updatePolicy>always</updatePolicy>
+<checksumPolicy>warn</checksumPolicy>
+</releases>
+<snapshots>                     
+<enabled>false</enabled>         
+<updatePolicy>never</updatePolicy>      
+<checksumPolicy>fail</checksumPolicy>           
+</snapshots>                                                  
+<id>navajo_test</id>
+<name>Navajo test</name>
+<url>https://repo.dexels.com/nexus/content/repositories/navajo_test</url>
+<layout>default</layout>                                                              
+</repository> 
+</repositories>
+</profile>
+</profiles>
+</settings>
