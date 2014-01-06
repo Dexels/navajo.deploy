@@ -64,4 +64,5 @@ sed -i -e 's/8009/9009/g' server.xml
 sed -i -e 's/8005/9005/g' server.xml
 cp ../../../tomcat-users.xml .
 cd ../bin
-./catalina.sh run
+./catalina.sh start
+echo "CI Script Complete!"
