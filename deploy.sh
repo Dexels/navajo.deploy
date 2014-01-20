@@ -1,4 +1,4 @@
-export TOMCAT_VERSION=7.0.47
+export TOMCAT_VERSION=7.0.50
 export NAVAJO_VERSION=3.0.0
 export NAVAJO_BRANCH=ci
 export NAVAJO_REPO=https://repo.dexels.com/nexus/content/repositories/navajo/
