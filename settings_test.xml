@@ -17,9 +17,9 @@
 <updatePolicy>never</updatePolicy>
 <checksumPolicy>fail</checksumPolicy>
 </snapshots>
-<id>navajo_snapshot</id>
+<id>navajo_test_snapshot</id>
 <name>Navajo test snapshot</name>
-<url>https://repo.dexels.com/nexus/content/repositories/navajo_snapshot</url>
+<url>https://repo.dexels.com/nexus/content/repositories/navajo_test_snapshot</url>
 <layout>default</layout>
 </repository>
 <repository>
@@ -33,9 +33,9 @@
 <updatePolicy>never</updatePolicy>      
 <checksumPolicy>fail</checksumPolicy>           
 </snapshots>                                                  
-<id>navajo</id>
+<id>navajo_test</id>
 <name>Navajo test</name>
-<url>https://repo.dexels.com/nexus/content/repositories/navajo</url>
+<url>https://repo.dexels.com/nexus/content/repositories/navajo_test</url>
 <layout>default</layout>                                                              
 </repository> 
 </repositories>

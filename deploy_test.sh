@@ -6,7 +6,7 @@ export NAVAJO_SNAPSHOT_REPO=https://repo.dexels.com/nexus/content/repositories/n
 #export NAVAJO_REPO=https://repo.dexels.com/nexus/content/repositories/navajo/
 export PUBLIC_REPO=https://repo.dexels.com/nexus/content/groups/public/
 export DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-export SETTINGS="${DIR}/settings.xml"
+export SETTINGS="${DIR}/settings_test.xml"
 export JAVA_HOME=/usr/lib/jvm/java-1.7.0
 
 #rm -rf ~/.m2/repository
