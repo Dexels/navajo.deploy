@@ -1,4 +1,4 @@
-export TOMCAT_VERSION=7.0.50
+export TOMCAT_VERSION=7.0.52
 export NAVAJO_VERSION=3.0.0
 export NAVAJO_BRANCH=ci
 export NAVAJO_REPO=https://repo.dexels.com/nexus/content/repositories/navajo/
@@ -26,14 +26,14 @@ else
 fi
 cd navajo/adapters
 
-mvn org.apache.maven.plugins:maven-dependency-plugin:2.4:get --settings ${SETTINGS} -Dartifact=com.dexels.navajo:com.sportlink.aaa:3.0.0 -U -Ddest=com.sportlink.aaa.jar
-mvn org.apache.maven.plugins:maven-dependency-plugin:2.4:get --settings ${SETTINGS} -Dartifact=com.dexels.navajo:com.sportlink.adapters:3.0.0 -U -Ddest=com.sportlink.adapters.jar
-mvn org.apache.maven.plugins:maven-dependency-plugin:2.4:get --settings ${SETTINGS} -Dartifact=com.dexels.navajo:com.sportlink.comp:3.0.0 -U -Ddest=com.sportlink.comp.jar
-mvn org.apache.maven.plugins:maven-dependency-plugin:2.4:get --settings ${SETTINGS} -Dartifact=com.dexels.navajo:com.sportlink.financial.functions:3.0.0 -U -Ddest=com.sportlink.financial.functions.jar
-mvn org.apache.maven.plugins:maven-dependency-plugin:2.4:get --settings ${SETTINGS} -Dartifact=com.dexels.navajo:com.sportlink.financial.adapters:3.0.0 -U -Ddest=com.sportlink.financial.adapters.jar
-mvn org.apache.maven.plugins:maven-dependency-plugin:2.4:get --settings ${SETTINGS} -Dartifact=com.dexels.navajo:com.sportlink.nevobo.dps:1.0.1 -U -Ddest=com.sportlink.nevobo.dps.jar
-mvn org.apache.maven.plugins:maven-dependency-plugin:2.4:get --settings ${SETTINGS} -Dartifact=com.dexels.navajo:com.sportlink.optimizepool:3.0.0 -U -Ddest=com.sportlink.optimizepool.jar
-mvn org.apache.maven.plugins:maven-dependency-plugin:2.4:get --settings ${SETTINGS} -Dartifact=com.dexels.navajo:com.sportlink.tensing:1.0.2 -U -Ddest=com.sportlink.tensing.jar
+mvn org.apache.maven.plugins:maven-dependency-plugin:2.4:get --settings ${SETTINGS} -Dartifact=com.dexels.navajo:com.sportlink.aaa:3.0.0 -U -Ddest=com.sportlink.aaa-3.0.0.jar
+mvn org.apache.maven.plugins:maven-dependency-plugin:2.4:get --settings ${SETTINGS} -Dartifact=com.dexels.navajo:com.sportlink.adapters:3.0.0 -U -Ddest=com.sportlink.adapters-3.0.0.jar
+mvn org.apache.maven.plugins:maven-dependency-plugin:2.4:get --settings ${SETTINGS} -Dartifact=com.dexels.navajo:com.sportlink.comp:3.0.0 -U -Ddest=com.sportlink.comp-3.0.0.jar
+mvn org.apache.maven.plugins:maven-dependency-plugin:2.4:get --settings ${SETTINGS} -Dartifact=com.dexels.navajo:com.sportlink.financial.functions:3.0.0 -U -Ddest=com.sportlink.financial.functions-3.0.0.jar
+mvn org.apache.maven.plugins:maven-dependency-plugin:2.4:get --settings ${SETTINGS} -Dartifact=com.dexels.navajo:com.sportlink.financial.adapters:3.0.0 -U -Ddest=com.sportlink.financial.adapters-3.0.0.jar
+mvn org.apache.maven.plugins:maven-dependency-plugin:2.4:get --settings ${SETTINGS} -Dartifact=com.dexels.navajo:com.sportlink.nevobo.dps:1.0.1 -U -Ddest=com.sportlink.nevobo.dps-1.0.1.jar
+mvn org.apache.maven.plugins:maven-dependency-plugin:2.4:get --settings ${SETTINGS} -Dartifact=com.dexels.navajo:com.sportlink.optimizepool:3.0.0 -U -Ddest=com.sportlink.optimizepool-3.0.0.jar
+mvn org.apache.maven.plugins:maven-dependency-plugin:2.4:get --settings ${SETTINGS} -Dartifact=com.dexels.navajo:com.sportlink.tensing:1.0.2 -U -Ddest=com.sportlink.tensing-1.0.2.jar
 
 cd ../../../..
 
